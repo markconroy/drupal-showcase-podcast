@@ -1,0 +1,77 @@
+name = ADFL
+description = An installation profile for A Design For Life-based websites
+core = 7.x
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; Adding Required Contrib modules
+dependencies[] = admin_menu
+dependencies[] = module_filter
+dependencies[] = backup_migrate
+dependencies[] = ckeditor
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = features
+dependencies[] = field_group
+;dependencies[] = google_analytics
+dependencies[] = honeypot
+dependencies[] = libraries
+dependencies[] = link
+dependencies[] = metatag
+dependencies[] = metatag_views
+dependencies[] = metatag_panels
+dependencies[] = pathauto
+dependencies[] = sharethis
+dependencies[] = smartcrop
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = views_rss_itunes
+dependencies[] = webform
+
+; Adding Custom Features
+
+; Configuration
+dependencies[] = adfl_field_bases
+dependencies[] = adfl_image_styles
+dependencies[] = adfl_honeypot_settings
+dependencies[] = adfl_sharethis_settings
+dependencies[] = adfl_text_formats_filtered_html
+dependencies[] = adfl_text_formats_full_html
+dependencies[] = adfl_ckeditor_advanced
+dependencies[] = adfl_ckeditor_full
+dependencies[] = adfl_roles_staff
+dependencies[] = adfl_vocabularies
+
+; Content Types
+dependencies[] = adfl_content_type_static_page
+dependencies[] = adfl_content_type_podcast
+dependencies[] = adfl_content_type_guest
+
+; Contexts
+dependencies[] = adfl_context_front_page
+dependencies[] = adfl_context_sitewide
+
+; Views
+dependencies[] = adfl_views_podcasts
+dependencies[] = adfl_views_podcast_feed
+dependencies[] = adfl_views_guests
+
+; Permissions and Path settings
+dependencies[] = adfl_permissions_settings
+dependencies[] = adfl_pathauto_settings

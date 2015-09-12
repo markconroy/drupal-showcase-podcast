@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ADFL Image Styles feature.
+ */
+
+include_once 'adfl_image_styles.features.inc';

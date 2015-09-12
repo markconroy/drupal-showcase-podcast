@@ -1,0 +1,19 @@
+/**
+ * @file Styling for the .left and .right classes
+ */
+
+.left {
+  text-align: center;
+  @include breakpoint($medium) {
+    float: left;
+    text-align: left;
+  }
+}
+
+.right {
+  text-align: center;
+  @include breakpoint($medium) {
+    float: right;
+    text-align: right;
+  }
+}

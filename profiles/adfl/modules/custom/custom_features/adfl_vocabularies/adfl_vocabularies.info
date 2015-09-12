@@ -1,0 +1,8 @@
+name = ADFL Vocabularies
+description = A feature to export the vocabularies
+core = 7.x
+package = ADFL Config
+dependencies[] = features
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[taxonomy][] = guests

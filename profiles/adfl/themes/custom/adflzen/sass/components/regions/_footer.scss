@@ -1,0 +1,16 @@
+/**
+ * @file Styling for the footer region
+ */
+
+#footer {
+  background: $col1;
+  color: $white;
+}
+
+#footer a {
+  color: $white;
+  &:focus,
+  &:hover {
+    color: $white;
+  }
+}

@@ -1,0 +1,9 @@
+name = Text Formats - Filtered HTML
+description = A feature to create the filtered HTML input format settings.
+core = 7.x
+package = ADFL Config
+dependencies[] = features
+dependencies[] = filter
+features[features_api][] = api:2
+features[filter][] = filtered_html
+project path = profiles/adfl/modules/custom/custom_features

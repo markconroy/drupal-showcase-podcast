@@ -1,0 +1,9 @@
+name = Context - Sitewide
+description = A feature to export the "sitewide" context
+core = 7.x
+package = ADFL Contexts
+dependencies[] = context
+dependencies[] = ctools
+features[context][] = sitewide
+features[ctools][] = context:context:3
+features[features_api][] = api:2

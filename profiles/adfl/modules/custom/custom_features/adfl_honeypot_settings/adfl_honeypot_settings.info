@@ -1,0 +1,13 @@
+name = ADFL Honeypot Settings
+description = A feature to create the "Honeypot" settings.
+core = 7.x
+package = ADFL Config
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = honeypot_element_name
+features[variable][] = honeypot_log
+features[variable][] = honeypot_protect_all_forms
+features[variable][] = honeypot_time_limit
+project path = profiles/adfl/modules/custom/custom_features

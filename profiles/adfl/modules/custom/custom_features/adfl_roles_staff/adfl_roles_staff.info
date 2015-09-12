@@ -1,0 +1,8 @@
+name = ADFL Roles - Staff
+description = A feature to create the "Staff" role
+core = 7.x
+package = ADFL Config
+dependencies[] = features
+features[features_api][] = api:2
+features[user_role][] = Staff User
+project path = profiles/adfl/modules/custom/custom_features

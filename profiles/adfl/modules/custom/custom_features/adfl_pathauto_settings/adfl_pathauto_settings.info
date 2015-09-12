@@ -1,0 +1,16 @@
+name = ADFL Pathauto
+description = A feature to create the "ADFL Pathauto" settings.
+core = 7.x
+package = ADFL Config
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = pathauto_blog_pattern
+features[variable][] = pathauto_forum_pattern
+features[variable][] = pathauto_node_pattern
+features[variable][] = pathauto_node_static_page_pattern
+features[variable][] = pathauto_punctuation_hyphen
+features[variable][] = pathauto_taxonomy_term_pattern
+features[variable][] = pathauto_user_pattern
+project path = profiles/adfl/modules/custom/custom_features

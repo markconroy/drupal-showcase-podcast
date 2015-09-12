@@ -1,0 +1,10 @@
+/**
+ * @file Styling for the header region
+ */
+
+#header {
+  #site-name {
+    @include element-focusable;
+  }
+  padding: 1rem 0;
+}

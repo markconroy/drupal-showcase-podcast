@@ -1,0 +1,11 @@
+name = Context - Front Page
+description = A feature to create the "Frontpage" context.
+core = 7.x
+package = ADFL Contexts
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = views
+features[context][] = front
+features[ctools][] = context:context:3
+features[features_api][] = api:2
+project path = profiles/adfl/modules/custom/custom_features

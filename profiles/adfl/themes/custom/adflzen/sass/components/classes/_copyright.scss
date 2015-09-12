@@ -1,0 +1,19 @@
+/**
+ * @file Styling for the copyright class
+ */
+
+.copyright {
+  background: $col1;
+  border-top: 1px solid $col3;
+  color: $col2;
+  font-size: 75%;
+  overflow: hidden;
+  a {
+    color: $col2;
+    &:focus,
+    &:hover {
+      color: $col2;
+      text-decoration: underline;
+    }
+  }
+}

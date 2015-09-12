@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ADFL ShareThis Settings feature.
+ */
+
+include_once 'adfl_sharethis_settings.features.inc';
