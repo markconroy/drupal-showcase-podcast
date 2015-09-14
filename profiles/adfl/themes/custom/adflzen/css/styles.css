@@ -1740,41 +1740,42 @@ h1, h2, h3, h4, h5, h6 {
 /* line 10, ../sass/components/regions/_navigation.scss */
 #top-nav .block-title,
 #middle-nav .block-title {
+  color: #fff;
   text-align: center;
 }
 
-/* line 16, ../sass/components/regions/_navigation.scss */
+/* line 17, ../sass/components/regions/_navigation.scss */
 #top-nav ul li,
 #middle-nav ul li {
   display: inline-block;
   list-style: none;
   text-align: center;
 }
-/* line 21, ../sass/components/regions/_navigation.scss */
+/* line 22, ../sass/components/regions/_navigation.scss */
 #top-nav ul li:focus, #top-nav ul li:hover,
 #middle-nav ul li:focus,
 #middle-nav ul li:hover {
   background: #444444;
 }
-/* line 25, ../sass/components/regions/_navigation.scss */
+/* line 26, ../sass/components/regions/_navigation.scss */
 #top-nav ul li a,
 #middle-nav ul li a {
   color: #fff;
   display: block;
 }
 
-/* line 33, ../sass/components/regions/_navigation.scss */
+/* line 34, ../sass/components/regions/_navigation.scss */
 #top-nav ul li a {
   padding: 1rem;
 }
 @media (min-width: 961px) {
-  /* line 33, ../sass/components/regions/_navigation.scss */
+  /* line 34, ../sass/components/regions/_navigation.scss */
   #top-nav ul li a {
     padding: 1rem 1.5rem;
   }
 }
 
-/* line 43, ../sass/components/regions/_navigation.scss */
+/* line 44, ../sass/components/regions/_navigation.scss */
 #middle-nav ul li a {
   padding: 1rem;
 }
