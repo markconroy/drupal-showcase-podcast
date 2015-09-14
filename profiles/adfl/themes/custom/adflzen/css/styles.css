@@ -154,7 +154,7 @@ a:visited {
 /* line 144, ../sass/_normalize.scss */
 a:hover,
 a:focus {
-  color: #F0F0F0;
+  color: #444444;
 }
 
 /* Address `outline` inconsistency between Chrome and other browsers. */
@@ -1754,7 +1754,7 @@ h1, h2, h3, h4, h5, h6 {
 #top-nav ul li:focus, #top-nav ul li:hover,
 #middle-nav ul li:focus,
 #middle-nav ul li:hover {
-  background: #F0F0F0;
+  background: #444444;
 }
 /* line 25, ../sass/components/regions/_navigation.scss */
 #top-nav ul li a,
@@ -1849,6 +1849,21 @@ h1, h2, h3, h4, h5, h6 {
 .contained, #main {
   margin: auto;
   max-width: 1200px;
+}
+
+/**
+ * @file Styling for the Front Page classes
+ */
+/* line 6, ../sass/components/classes/_front.scss */
+.front #mc_embed_signup {
+  background: #F0F0F0;
+  border: 1px solid #660066;
+  margin: 32px auto;
+  max-width: 300px;
+}
+/* line 12, ../sass/components/classes/_front.scss */
+.front .field-name-body {
+  text-align: center;
 }
 
 /**

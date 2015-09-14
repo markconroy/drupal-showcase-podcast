@@ -9,9 +9,8 @@
  */
 
 #admin-menu {
-  /*background: #101010 url(images/bkg.png) bottom left repeat-x;*/
-  background: #101010;
-  font-size: 12px;
+  background: #101010 url(images/bkg.png) bottom left repeat-x;
+  font-size: 9px;
   font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
   left: 0;
   position: absolute;
@@ -50,7 +49,7 @@ body.admin-menu {
 /* All lists */
 #admin-menu,
 #admin-menu .dropdown {
-  line-height: 2.5em;
+  line-height: 1.4em;
   list-style: none;
   margin: 0;
   padding: 0;
