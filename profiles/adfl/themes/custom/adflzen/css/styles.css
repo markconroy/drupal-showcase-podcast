@@ -1840,7 +1840,12 @@ h1, h2, h3, h4, h5, h6 {
 /* line 5, ../sass/components/classes/_page.scss */
 #page {
   background: #F0F0F0;
-  margin-top: -1.5em;
+}
+@media (min-width: 961px) {
+  /* line 5, ../sass/components/classes/_page.scss */
+  #page {
+    margin-top: -1.5em;
+  }
 }
 
 /**
